@@ -1,0 +1,88 @@
+[
+  {
+    "tags": [
+      {
+        "tag": "some-tag",
+        "type": "Type",
+        "name": "name",
+        "optional": false,
+        "description": "Singleline or multiline description text",
+        "line": 3,
+        "source": "@some-tag {Type} name Singleline or multiline description text"
+      },
+      {
+        "tag": "some-tag",
+        "type": "Type",
+        "name": "name.subname",
+        "optional": false,
+        "description": "Singleline or multiline description text",
+        "line": 4,
+        "source": "@some-tag {Type} name.subname Singleline or multiline description text"
+      },
+      {
+        "tag": "some-tag",
+        "type": "Type",
+        "name": "name.subname.subsubname",
+        "optional": false,
+        "description": "Singleline or\nmultiline description text",
+        "line": 5,
+        "source": "@some-tag {Type} name.subname.subsubname Singleline or\nmultiline description text"
+      },
+      {
+        "tag": "another-tag",
+        "name": "",
+        "optional": false,
+        "type": "",
+        "description": "",
+        "line": 7,
+        "source": "@another-tag"
+      }
+    ],
+    "line": 0,
+    "description": "Singleline or multiline description text. Line breaks are preserved.",
+    "source": "Singleline or multiline description text. Line breaks are preserved.\n\n@some-tag {Type} name Singleline or multiline description text\n@some-tag {Type} name.subname Singleline or multiline description text\n@some-tag {Type} name.subname.subsubname Singleline or\nmultiline description text\n@another-tag"
+  },
+  {
+    "tags": [
+      {
+        "tag": "some-tag",
+        "type": "Type",
+        "name": "name",
+        "optional": false,
+        "description": "Singleline or multiline description text",
+        "line": 12,
+        "source": "@some-tag {Type} name Singleline or multiline description text"
+      },
+      {
+        "tag": "some-tag",
+        "type": "Type",
+        "name": "name.subname",
+        "optional": false,
+        "description": "Singleline or multiline description text",
+        "line": 13,
+        "source": "@some-tag {Type} name.subname Singleline or multiline description text"
+      },
+      {
+        "tag": "some-tag",
+        "type": "Type",
+        "name": "name.subname.subsubname",
+        "optional": false,
+        "description": "Singleline or\nmultiline description text",
+        "line": 14,
+        "source": "@some-tag {Type} name.subname.subsubname Singleline or\nmultiline description text"
+      },
+      {
+        "tag": "another-tag",
+        "name": "",
+        "optional": false,
+        "type": "",
+        "description": "",
+        "line": 16,
+        "source": "@another-tag"
+      }
+    ],
+    "line": 9,
+    "description": "Singleline or multiline description text. Line breaks are preserved.",
+    "source": "Singleline or multiline description text. Line breaks are preserved.\n\n@some-tag {Type} name Singleline or multiline description text\n@some-tag {Type} name.subname Singleline or multiline description text\n@some-tag {Type} name.subname.subsubname Singleline or\nmultiline description text\n@another-tag"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "name": "grunt-comment-parser",
+  "description": "Grunt task for comment-parser liib.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Calum/grunt-comment-parser",
+  "author": {
+    "name": "Calum Moore",
+    "email": "calum.moore@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Calum/grunt-comment-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Calum/grunt-comment-parser/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Calum/grunt-comment-parser/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "comment-parser": "~0.3.0"
+  }
+}
